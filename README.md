@@ -19,7 +19,7 @@ Don't get hit while crossing the road! When you collide with anything else, you 
 
 ## Play Online in the Live View
 
-You can play the game here: need to create a online inbuilt github link to place here.
+You can play the game here just click this link https://marthataylor.github.io/frontend-nanodegree-arcade-game/ and it will open a live version of the game in your browser.
 
 
 ## Installation
@@ -29,7 +29,8 @@ This game needs a keyboard with arrow keys as you use arrow keys to direct your 
 There are two ways you can install this project:
 1. Download the resository as a zip-file, extract it and open the index.html to run the Arcade Game.
 
-2. Clone the repository with Git Bash: $ git clone https://github.com***need-to-add-my-repo and open the index.html to run the Arcade Game.
+2. Clone the repository with Git Bash. Choose where you want to clone the project to on your laptop and cd into it, for example ```cd Desktop``` 
+Then Open my repository at https://github.com/MarthaTaylor/frontend-nanodegree-arcade-game click the clone button and take the url. Next open Git Bash and run the command ```$ git clone place-the-url-here``` and run it. Open the index.html file on your local machine and run the game in the browser.
 
 ## Credits
 
