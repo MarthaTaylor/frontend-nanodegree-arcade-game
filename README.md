@@ -1,20 +1,65 @@
-# Classic Arcade Game Clone Project
+# Classic Arcade Game Clone Project 
 
 ## Table of Contents
 
-- [Instructions](#instructions)
+- [Game Instructions](#gameinstructions)
+- [Installation](#Installation)
+- [Credits](#credits)
+- [Built With](#Built With)
+- [External Code Used in this Project](#External Code Used in this Project)
 - [Contributing](#contributing)
+- [Acknowledgements](#Acknowledgements)
 
-## Instructions
 
-Use this [rubric](https://review.udacity.com/#!/rubrics/15/view) for self-checking your submission.
+##Game Instructions 
 
-Make sure the functions you write are **object-oriented** - either class functions (like `Player` and `Enemy`) or class prototype functions such as `Enemy.prototype.checkCollisions`. Also make sure that the keyword `this` is used appropriately within your class and class prototype functions to refer to the object the function is called upon.
+The Arcade Game clone is a desktop game that is modelled after the well-known game Frogger. You can direct your player using the arrow keys on a keyboard. The goal of the game is to ensure your Player avoids collision with objects while crossing the road and to reach the water line successfully.
 
-Your **README.md** file should be updated with instructions on both how to 1. Run and 2. Play your arcade game.
+Don't get hit while crossing the road! When you collide with anything else, you have to start again.
 
-For detailed instructions on how to get started, check out this [guide](https://docs.google.com/document/d/1v01aScPjSWCCWQLIpFqvg3-vXLH2e8_SZQKC8jNO0Dc/pub?embedded=true).
+##Play Online in the Live View
 
-## Contributing
+You can play the game here: need to create a online inbuilt github link to place here.
 
-This repository is the starter code for _all_ Udacity students. Therefore, we most likely will not accept pull requests.
+
+##Installation
+
+This game needs a keyboard with arrow keys as you use arrow keys to direct your character.
+
+There are two ways you can install this project:
+1. Download the resository as a zip-file, extract it and open the index.html to run the Arcade Game.
+
+2. Clone the repository with Git Bash: $ git clone https://github.com***need-to-add-my-repo and open the index.html to run the Arcade Game.
+
+##Credits
+
+These resources helped me to get a better understanding of the arcade game project:
+
+www.udacity.com and www.mathewcranford.com
+
+##Built With
+
+Languages:
+
+HTML
+CSS
+JavaScript
+
+##External Code Used in this Project
+
+The starter code for this project comes from Udacity Arcade Game repository by Richard Kalehoff. I forked it, cloned it and downloaded it from my cloned version on github. You should see a connection between the starter code and mine.
+
+Code reuse in this game manily came from https://matthewcranford.com/arcade-game-walkthrough tutorials and udacity.com starter code.
+
+##Contributing
+
+This repository is one of my projects as a Udacity student. Therefore, I most likely will not accept pull requests.
+ 
+ ##Acknowledgements
+
+Big thanks to such generous people in the up coming and senior development community at Udacity, Google and outside. You have helped me understand so much more and grow. I deeply appreciate the hope it allows to remain in me of humanity and of our future together.
+
+A special shout out to my study group on slack who were my life line and a source of comradeship. 
+
+I wish you all every happiness.
+

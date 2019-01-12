@@ -1,3 +1,11 @@
+<!--Author: Martha Taylor
+Project 4 The Arcade Game-
+Code reused from the following sources:
+The starter code for this project comes from the following [Udacity Memory Game repository](https://github.com/udacity/fend-project-memory-game) by Richard Kalehoff. I forked it to my git repo and cloned it.
+Some guidance taken from the [Memory Game Study Jam](https://youtu.be/G8J13lmApkQ?t=9) by Yayha Elharony. Thanks for explaining with such clarity and attention to detail.
+Some code from Daniela Kuester https://github.com/DanielaKuester/Udacity-Project03-Memory-Game and the tutorial https://scotch.io/tutorials/how-to-build-a-memory-matching-game-in-javascript by Sandra Israel-Ovirih and W3Schools https://www.w3schools.com/howto/howto_css_modals.asp all assisted me to optimise the build of the game bit by bit.
+Some code from the walkthrough tutorials by Matthew Cranford at https://matthewcranford.com which where brilliant.-->
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -5,7 +13,33 @@
     <title>Effective JavaScript: Frogger</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
-<body>
+<body>	
+		<header> 
+			<h1> Arcade Game </h1> 
+		</header>
+
+		<h2> Instructions </h2>		
+		
+		<ul> 
+			<li>You use the keyboard arrow keys to direct your charactor &larr; &uarr; &rarr; &darr; </li> 
+		 	<li> To win reach the water side without colliding with gigantic bugs. </li>
+		</ul>  
+		
+	<!--Modal area displays information at the end of game in a popup modal-->   
+    <div id="modal">        
+
+        <div class="modal-content">     
+
+            <span class="closeX"> &times; </span>   
+				
+            		<h3> You Won </h3>           
+											
+            <button class="playAgain"> Play again! </button>   
+            	    
+        </div>
+
+    </div>
+
     <script src="js/resources.js"></script>
     <script src="js/app.js"></script>
     <script src="js/engine.js"></script>

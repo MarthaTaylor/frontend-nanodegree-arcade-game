@@ -1,3 +1,91 @@
+*{ 
+	margin: 0;
+	padding: 0; 
+}
+
 body {
     text-align: center;
+    font-family: 'Modern Antiqua', cursive, Pacifico;
+    color: #002DF0;
+ }
+h1{
+	padding-top: 10px;
+	padding-bottom: 5px;
+	color: #F0A400;	
+}
+
+h3{
+	font-size: 32px;
+	color: #002DF0;
+}
+ul{
+	font-size: 18px;
+}
+
+/****THE MODAL BOX                                                                                                            *
+****Code reuse and used as an example to make the modal box comes from 2 sources                                             *
+****https://www.w3schools.com/howto/howto_css_modals.asp and https://github.com/DanielaKuester/Udacity-Project03-Memory-Game*/
+
+/* TODO  add a Modal Popup on game end*/
+#modal {
+    display: none;    
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100vw; 
+    height: 100vh;
+    overflow: auto; /* Enable scroll feature if needed */
+    background-color: rgba(0,0,0,0.6);
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    left: 50%;
+    top: 50%;
+    width: 200px;
+    height: 150px;
+    border-radius: 17px;
+    font-size: 1.4em;
+    font-family: 'Modern Antiqua', cursive, Pacifico;
+     }
+
+/* TODO: The X Close Button for the modal */
+.closeX {
+    color: brown;
+    float: right;
+    font-size: 1.5em;
+    font-weight: bold;
+    font-family: arial, cursive;
+}
+
+.closeX:hover,
+.closeX:focus {
+    color: rgb(17, 17, 17);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* TODO: The Play Again Button for the modal */
+.playAgain {
+        background-color: #00C212;
+        font-size: 22px;
+        font-weight: bold;
+        color: #000000;
+        border: #02b;
+        border-radius: 12px;
+        box-shadow: 0 4px 4px 0 rgba(0,0,0,0.1), 0 6px 6px 0 rgba(0,0,0,1);
+        font-family: 'Modern Antiqua', cursive, Pacifico;
+        min-height: 58px;
+        min-width: 58px;
+        margin-top: 20px;
+        padding: 12px;
+}
+
+.playAgain:hover, .playAgain:focus {
+        cursor: pointer;
+        color: #fff;
 }
