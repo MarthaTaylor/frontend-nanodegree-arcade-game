@@ -5,8 +5,8 @@
 - [Game Instructions](#gameinstructions)
 - [Installation](#Installation)
 - [Credits](#credits)
-- [Built With](#Built With)
-- [External Code Used in this Project](#External Code Used in this Project)
+- [Built With](#builtwith)
+- [External Code Used in this Project](#ExternalCodeUsedinthisProject)
 - [Contributing](#contributing)
 - [Acknowledgements](#Acknowledgements)
 
